@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstHazelcastClient", "FirstHazelcastClient\FirstHazelcastClient.csproj", "{A250D4DD-4525-4954-9D99-DFF2862B9CE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondHazelcastClient", "SecondHazelcastClient\SecondHazelcastClient.csproj", "{847084AE-B0CF-4390-BC28-CC37EFE375D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A250D4DD-4525-4954-9D99-DFF2862B9CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A250D4DD-4525-4954-9D99-DFF2862B9CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A250D4DD-4525-4954-9D99-DFF2862B9CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A250D4DD-4525-4954-9D99-DFF2862B9CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847084AE-B0CF-4390-BC28-CC37EFE375D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847084AE-B0CF-4390-BC28-CC37EFE375D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847084AE-B0CF-4390-BC28-CC37EFE375D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847084AE-B0CF-4390-BC28-CC37EFE375D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C85848F-9191-4B5B-A7E0-3AE6CA389995}
+	EndGlobalSection
+EndGlobal

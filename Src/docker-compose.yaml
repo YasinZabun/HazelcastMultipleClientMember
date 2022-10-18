@@ -1,0 +1,18 @@
+  version: '3.9'
+  services:
+    hazelcast-service:
+      image: hazelcast/hazelcast:latest
+      environment:
+        - HZ_CLUSTERNAME=hello-world
+      ports:
+        - "5701:5701"
+    hazelcast-service-1:
+      image: hazelcast/hazelcast:latest
+      environment:
+        - HZ_CLUSTERNAME=hello-world
+      ports:
+        - "5702:5702"
+    hazelcast-managment-center:
+      image: hazelcast/management-center:latest-snapshot
+      ports:
+        - "8080:8080"

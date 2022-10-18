@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FirstHazelcastClient": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
